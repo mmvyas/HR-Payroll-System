@@ -11,7 +11,7 @@ The frontend is done using React and the backend is done using Node.
 **How to run the system**
 There are two parts to the system: Client and Server.
 1. Click on "Clone Repository" or "Download zip".
-2. Unzip the contents and use command cd hr_payroll_system
+2. Unzip the contents and use command `cd hr_payroll_system`
 3. First we will install the dependencies for the client, so go to your terminal and cd client
 4. Once you are in client directory, use command npm install
 5. After all dependencies have been installed, use command npm start.
