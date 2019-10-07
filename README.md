@@ -12,15 +12,17 @@ The frontend is done using React and the backend is done using Node.
 There are two parts to the system: Client and Server.
 1. Click on "Clone Repository" or "Download zip".
 2. Unzip the contents and use command `cd hr_payroll_system`
-3. First we will install the dependencies for the client, so go to your terminal and cd client
-4. Once you are in client directory, use command npm install
-5. After all dependencies have been installed, use command npm start.
+3. First we will install the dependencies for the client, so go to your terminal and `cd client`
+4. Once you are in client directory, use command `npm install`
+5. After all dependencies have been installed, use command `npm start`
 6. This will open a new terminal. But wait...
-7. Now open a new git bash or node terminal (whichever you are using)
-8. Go to the project folder with zip, but stay outside client.
-9. Now we will install server dependencies with npm install.
-10. After that run npm start.
+7. Now open a **new git bash or node terminal** (whichever you are using)
+8. Go to the project folder with zip, but **stay outside client**.
+9. Now we will install server dependencies with `npm install`
+10. After that run `npm start`
 11. The window must dispay "Listening on port 5000" message.
+![6](https://user-images.githubusercontent.com/40931707/66323182-1d13f680-e96f-11e9-8057-1f238bea007f.JPG)
+
 12. Now go to your browser, navigate to localhost:3000 and play around.
 
 **TEST RUN**
@@ -53,7 +55,9 @@ Pay	$ 3,632.00
 
 
 4) The payslip can be found in the client/audit/ folder under name - Mansi Vyas_October name.
-![4](https://user-images.githubusercontent.com/40931707/66322486-ed182380-e96d-11e9-876c-c4990fbcdc2e.JPG)
+![7](https://user-images.githubusercontent.com/40931707/66323348-66644600-e96f-11e9-8c12-723550cdbd09.JPG)
+
+(Also notice the directory structure here for your reference)
 
 
 _Note here that if again payment is made to employee Mansi Vyas for October pay period, the system will not allow it and alert will pop up telling that payment has already been made to Mansi Vyas for October_
